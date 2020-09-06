@@ -25,7 +25,7 @@ SECRET_KEY = '+ct(8^^&hgh(75*93s)n=awo*2flfc+28eoi&hnu+3mhc4*$pj'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['arehan.pythonanywhere.com']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -55,7 +55,7 @@ ROOT_URLCONF = 'mysite.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['polls'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
